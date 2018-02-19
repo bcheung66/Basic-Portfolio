@@ -118,8 +118,6 @@ a.nav_list {
     padding-top: 30px;
 }
 
-
-
 .contact_bottom {
     /*display: flex;
     flex-direction: column;*/
@@ -127,6 +125,48 @@ a.nav_list {
     padding-top: 30px;
     margin: 30px;
     /*line-height: 30px;*/
+}
+
+.footer {
+    align-items: center;
+    background-color: #666666;
+    border-top: solid 10px #4aaaa5;
+    color: #cccccc;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin: auto auto 0 auto;
+    width: 100%;
+}
+
+.submit_button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: large;
+    margin-top: 10px;
+    padding: 10px 32px;
+}
+
+.form_field {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.text_area {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin-top: 10px;  
+}
+
+.body {
+    display: flex;
+    background-image: linear-gradient(red, orange);
+    flex-direction: column;
+    min-height: 100vh;
 }
 .footer {
     align-items: center;
@@ -138,4 +178,49 @@ a.nav_list {
     height: 100px;
     margin: auto auto 0 auto;
     width: 100%;
+}
+.portfolio_top {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: solid #cccccc 2px;
+    font-size: xx-large;
+    color: #4aaaa5;
+    /*border-bottom: solid #cccccc 2px;*/
+    padding-left: 30px;
+    padding-top: 10px; 
+}
+
+.portfolio_bottom {
+    border-top: solid #cccccc 2px;
+    margin: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 30px;
+    /*margin: 30px;
+    line-height: 30px;*/
+}
+
+.portfolio_box {
+    /*border: 2px solid red;*/
+    width: 270px;
+    height: 240px;
+    margin: 2px;
+}
+
+.overlay {
+    background-color: #4aaaa5;
+    color: white;
+    position: relative;
+    height: 20%;
+    width: 100%;
+    top: -65px;
+    text-align: center;
+    font-size: x-large;
+    line-height: 60px;
+  }
+
+.portfolio_bottom img {
+    width: 270px;
+    height: 200px;
+    /*margin: 30px 10px;*/   
 }
