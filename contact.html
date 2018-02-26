@@ -5,8 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>About Brenda</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+
 </head>
 
 </html>
@@ -17,17 +25,26 @@
         <div class="name_tab name_tab_font">
                 <h1>Brenda Cheung</h1>
         </div>
-        <!-- The nav bar -->
-        <nav>
-            <ul class="nav_list other_fonts">
-                <li><a href="index.html" class="nav_list other_fonts" >About</a></li>
-                <li><a href="portfolio.html" class="nav_list other_fonts">Portfolio</a></li>
-                <li><a href="contact.html" class="nav_list other_fonts">Contact</a></li>
-            </ul>
-        </nav> 
+        <!-- Use navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+             <div class="navbar-nav nav_list other_fonts">
+                <!--<ul class="navbar-nav"> -->
+                <ul class="navbar-nav nav_list other_fonts">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" class="nav_list other_fonts">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html" class="nav_list other_fonts" >Portfolio </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" class="nav_list other_fonts" >Contact</a>
+                    </li>
+                </ul>
+            </div>                  
+        </nav>
+
     </header> 
     <section class="main_section">
-
         <!-- 'Contact', large box on left side -->
         <article class="about_me">
             <div class="about_me_top header_font">
@@ -50,28 +67,23 @@
         </article>
 
         <aside class="connect_with_me">
-
-               
-                <div class="connect_top header_font" >
-                    <h2>Connect with Me</h2>
-                </div>
-    
+            <div class="connect_top header_font" >
+                <h2>Connect with Me</h2>
+            </div>
                 
-                <div class="connect_bottom">
-                    <a href="https://github.com/bcheung66" target="_blank">
-                        <img src="./assets/images/github_icon.png" alt="Github link">
-                    </a>
-    
-                    <a href="www.linkedin.com/in/bcheung66" target="_blank">
-                        <img src="./assets/images/linkedin_icon.png" alt="LinkedIn link">
-                    </a>
-    
-                    <a href="https://stackoverflow.com/users/9319049/bccheung" target="_blank">
-                        <img src="./assets/images/stack_overflow_white_bg.png" alt="Stack Overflow link">     
-                    </a>
-                </div>
-            </aside>
-
+            <!-- Use navbar -->
+            <div class="navbar connect_bottom">
+                <a href="https://github.com/bcheung66" target="_blank">
+                <img src="./assets/images/github_icon.png" width="50" height="50" alt="Github link">
+                </a>
+                <a href="https://www.linkedin.com/in/brenda-cheung-8002363/" target="_blank">
+                <img src="./assets/images/linkedin_icon.png"  width="50" height="50" alt="LinkedIn link">
+                </a>
+                <a href="https://stackoverflow.com/users/9319049/bccheung" target="_blank">
+                <img src="./assets/images/stack_overflow_white_bg.png" width="50" height="50" alt="Stack Overflow link">     
+                 </a>
+            </div>
+        </aside>
     </section>
 
      <footer class="footer other_fonts">
